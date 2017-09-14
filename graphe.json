@@ -1,0 +1,2322 @@
+{
+    "id": "Optic_v1",
+    "CreatedDate": "2017-04-22T05:44:15.9600833Z",
+    "ChangedDate": "2017-07-14T22:52:01.8655662Z",
+    "ThumbnailPath": "/Resource/GetResourceFromAzure?experienceId=Optic_v1&type=Video360&name=a_Bonjour3ok&element=Thumbnail",
+    "GroupName": "Uptale",
+    "ProgramName": "Demos",
+    "Title": "Optic Seller",
+    "Description": null,
+    "HideRestart": false,
+    "HideLoading": false,
+    "HideFloor": false,
+    "isPublic": true,
+    "Worlds": [
+        {
+            "Id": "0_welcome",
+            "Topics": [
+                {
+                    "Id": "01_Info",
+                    "DependsOn": [],
+                    "DiesAfter": [],
+                    "Type": "Image2D",
+                    "Size": "4,2,0",
+                    "Position": "0.01,2.07,-2",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": "templateinstructionpptx",
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": null,
+                        "Text": null,
+                        "Media": null,
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": [],
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "02_Door",
+                    "DependsOn": [],
+                    "DiesAfter": [],
+                    "Type": "Door",
+                    "Size": "0,0,0",
+                    "Position": "1.03,1.55,-1.48",
+                    "Rotation": "0,0,0",
+                    "Scale": "0.9,0.9,0.9",
+                    "Color": "#14dbc0",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": false,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": "1_Bonjour",
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": null,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": null,
+                    "CanRetry": false,
+                    "IsStarable": false
+                }
+            ],
+            "Media": null,
+            "Sound": null,
+            "VideoVolume": null,
+            "SoundVolume": null,
+            "SoundPlayCount": 0,
+            "Type": "Void",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "1_Bonjour",
+            "Topics": [
+                {
+                    "Id": "12_commencer",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "1.05,1.7,-0.94",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": "12_2",
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 15000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Accueillir client",
+                        "Text": "Un nouveau client vient de rentrer dans le magasin, que faire?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT bgwhite nospace' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='' src='~'/></td><td class='blue subtitle bgwhite header left middle' style='font-size:80px' TITLE>Accueillir client</td></tr><tr><td class=' black text left top' style='font-size:53px' CONTENT>Un nouveau client vient de rentrer dans le magasin, que faire?</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Montrer les promotions</td></tr></table>",
+                            "Title": "Montrer les promotions",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": "2_NonMerci"
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Proposer de l'aide<br>si besoin</td></tr></table>",
+                            "Title": "Proposer de l'aide si besoin",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": "3_Merci"
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": false,
+                    "IsStarable": true
+                },
+                {
+                    "Id": "11_audiobonjour",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Audio",
+                    "Size": "1,1,0",
+                    "Position": "1.97,1.9,0.34",
+                    "Rotation": "0,0,0",
+                    "Scale": "0,0,0",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": "11_2",
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 12000,
+                    "DiesAt": 20000,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_Bonjour3ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "2_NonMerci",
+            "Topics": [
+                {
+                    "Id": "21_suite",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "-0.76,1.37,1.18",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 9000,
+                    "DiesAt": 0,
+                    "ToWorld": "3_Merci",
+                    "ToUrl": null,
+                    "Caption": "Recommencer accueil",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "conseilaccueil",
+                    "DependsOn": [],
+                    "DiesAfter": [],
+                    "Type": "Info",
+                    "Size": "1.3,0.5,0",
+                    "Position": "-0.69,2.17,1.06",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 8000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": "<table class='TEMPLATENONE nospace bgwhite' style='width:1024px; height:512px;'><tr><td class='subtitle blue' style='height:160px; font-size:90px;padding:0 20px' TITLE>Conseil</td></tr><tr><td class='black text top' style='font-size:45px;height:350px;padding:0 20px' CONTENT>Parler tout de suite des promotions est une approche commerciale un peu agressive. <br>Dans un premier temps, adoptez une attitude de disponibilité et de conseil pour que le client se sente à l'aise.</td></tr></table>",
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Conseil",
+                        "Text": "Parler tout de suite des promotions est une approche commerciale un peu agressive. /nDans un premier temps, adoptez une attitude de disponibilité et de conseil pour que le client se sente à l'aise.",
+                        "Media": null,
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_NonMerci4ok",
+            "Sound": "31_2",
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "3_Merci",
+            "Topics": [
+                {
+                    "Id": "33_suite",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "-0.77,1.35,1.18",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#fffcfc",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 8000,
+                    "DiesAt": 0,
+                    "ToWorld": "4_ExcusezMoi",
+                    "ToUrl": null,
+                    "Caption": "Rester près du client",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_Merci3ok",
+            "Sound": "01_LeBon_2",
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "4_ExcusezMoi",
+            "Topics": [
+                {
+                    "Id": "41_biensur",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Audio",
+                    "Size": "1,1,0",
+                    "Position": "1.5,1.49,-0.1",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": "41-2_2",
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 9000,
+                    "DiesAt": 0,
+                    "ToWorld": "5_Conseil",
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_ExcusezMoi2ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,200,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "5_Conseil",
+            "Topics": [
+                {
+                    "Id": "52_usage",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "52_usage"
+                    ],
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "-1.35,1.98,-0.41",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 11000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "",
+                        "Text": "Quel type de lunettes allez-vous/nproposer au client?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT bgwhite nospace' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='' src='~'/></td><td class='blue subtitle bgwhite header left middle' style='font-size:80px' TITLE></td></tr><tr><td class=' black text left top' style='font-size:53px' CONTENT>Quel type de lunettes allez-vous<br>proposer au client?</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Des paires solides type sportives</td></tr></table>",
+                            "Title": "Des paires solides type sportives",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": "7_Sport"
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Des paires<br>modernes de ville</td></tr></table>",
+                            "Title": "Des paires modernes de ville",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": "8_Moderne"
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": false,
+                    "IsStarable": true
+                }
+            ],
+            "Media": "a_DemandeConseils3ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "7_Sport",
+            "Topics": [
+                {
+                    "Id": "71_instruction",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Info",
+                    "Size": "1,0.4,0",
+                    "Position": "-1.3,1.99,-0.54",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 14000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": "<table class='TEMPLATENONE nospace bgwhite' style='width:1024px; height:512px;'><tr><td class='subtitle blue' style='height:160px; font-size:90px;padding:0 20px' TITLE>Conseil</td></tr><tr><td class='black text top' style='font-size:45px;height:350px;padding:0 20px' CONTENT>Demander d'abord au client quel usage il fera de ses lunettes: en ville? A la plage? Au ski? En faisant du sport?</td></tr></table>",
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Conseil",
+                        "Text": "Demander d'abord au client quel usage il fera de ses lunettes: en ville? A la plage? Au ski? En faisant du sport?",
+                        "Media": null,
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "72_retour",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "-1.41,1.46,-0.51",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 16000,
+                    "DiesAt": 0,
+                    "ToWorld": "8_Moderne",
+                    "ToUrl": null,
+                    "Caption": "Lunettes pour la ville",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_EssaiLunettesSport1ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "8_Moderne",
+            "Topics": [
+                {
+                    "Id": "82_UV",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Audio",
+                    "Size": "1,1,0",
+                    "Position": "-1.24,1.71,0.83",
+                    "Rotation": "0,0,0",
+                    "Scale": "0,0,0",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": "82_2",
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 9000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "83_quizzUV",
+                    "DependsOn": null,
+                    "DiesAfter": [
+                        "83_quizzUV"
+                    ],
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "-1.38,1.92,-0.31",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 19000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Indices de protection UV",
+                        "Text": "Le client souhaite des lunettes pour/nla ville ou en vacances./nQuel indice de protection allez-vous lui conseiller?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT nospace bgwhite' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='' src='~'/></td><td class='blue subtitle header left middle' style='font-size:80px;padding:0 20px' TITLE>Indices de protection UV</td></tr><tr><td class=' black text left top' style='font-size:53px;padding:0 20px' CONTENT>Le client souhaite des lunettes pour<br>la ville ou en vacances.<br/>Quel indice de protection allez-vous lui conseiller?</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>1</td></tr></table>",
+                            "Title": "1",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>2</td></tr></table>",
+                            "Title": "2",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>3</td></tr></table>",
+                            "Title": "3",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>4</td></tr></table>",
+                            "Title": "4",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": true
+                },
+                {
+                    "Id": "84_resolution",
+                    "DependsOn": [
+                        "83_quizzUV"
+                    ],
+                    "DiesAfter": null,
+                    "Type": "Info",
+                    "Size": "1,1.1,0",
+                    "Position": "-1.38,1.92,-0.31",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": "<table class='TEMPLATEBOTTOM nospace bgwhite' style='width:1024px; height:1024px;'><tr><td class='subtitle blue' style='height:160px; font-size:90px;padding:0 20px' TITLE>Les indices UV</td></tr><tr><td class='black text top' style='font-size:45px;height:10px;padding:0 20px' CONTENT>Demander au préalable l'usage que fera le client des lunettes. A priori, celui-ci souhaite des lunettes à porter pour un ensoleillement modéré à fort, en ville ou en vacances.</td></tr><tr><td class='upcenter'><img PICTURE='IndiceUV2' src='~/Content/Experiences/Optic_v1/Pic2D/_Processed/IndiceUV2/media.png'/></td></tr></table>",
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Les indices UV",
+                        "Text": "Demander au préalable l'usage que fera le client des lunettes. A priori, celui-ci souhaite des lunettes à porter pour un ensoleillement modéré à fort, en ville ou en vacances.",
+                        "Media": "IndiceUV2",
+                        "Format": "ImageBottom"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "85_suite",
+                    "DependsOn": [
+                        "83_quizzUV"
+                    ],
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "-1.38,1.24,-0.28",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": "9_MontureChoix",
+                    "ToUrl": null,
+                    "Caption": "choix montures",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_AssezModerneUV1ok",
+            "Sound": "81_2",
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "9_MontureChoix",
+            "Topics": [
+                {
+                    "Id": "91_suite",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "-1.34,1.53,0.42",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 8000,
+                    "DiesAt": 0,
+                    "ToWorld": "9bis_Visage",
+                    "ToUrl": null,
+                    "Caption": "Analyse visage",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_UVMontures2ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "9bis_Visage",
+            "Topics": [
+                {
+                    "Id": "93_visage",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "-1.4,1.18,0.17",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 2000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "",
+                        "Text": "Quelle est la forme de visage de ce client?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT bgwhite nospace' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='Forme visage' src='~/Content/Experiences/Optic_v1/Pic2D/_Processed/Forme visage/media.png'/></td><td class='blue subtitle bgwhite header left middle' style='font-size:80px' TITLE></td></tr><tr><td class=' black text left top' style='font-size:53px' CONTENT></td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Rectangulaire</td></tr></table>",
+                            "Title": "Rectangulaire",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Rond</td></tr></table>",
+                            "Title": "Rond",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Ovale</td></tr></table>",
+                            "Title": "Ovale",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": "10_Monture"
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": true
+                }
+            ],
+            "Media": "PhotoEssaiLunettes",
+            "Sound": "92_2",
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Pic360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "10_Monture",
+            "Topics": [
+                {
+                    "Id": "101_formemontures",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "-1.38,1.92,-0.29",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 8000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "",
+                        "Text": "Quelle forme de monture/n conseiller au client?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT bgwhite nospace' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='Visage ovale' src='~/Content/Experiences/Optic_v1/Pic2D/_Processed/Visage ovale/media.png'/></td><td class='blue subtitle bgwhite header left middle' style='font-size:80px' TITLE></td></tr><tr><td class=' black text left top' style='font-size:53px' CONTENT>Quelle forme de monture<br> conseiller au client?</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Tout va avec un visage ovale</td></tr></table>",
+                            "Title": "Tout va avec un visage ovale",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": "11_choixlunettes"
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Rondes</td></tr></table>",
+                            "Title": "Rondes",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Carrées</td></tr></table>",
+                            "Title": "Carrées",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": true
+                }
+            ],
+            "Media": "a_VisageMontures1",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "11_choixlunettes",
+            "Topics": [
+                {
+                    "Id": "questionbis",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Image2D",
+                    "Size": "1,1,0",
+                    "Position": "-1.35,1.86,0.41",
+                    "Rotation": "0,0,0",
+                    "Scale": "1.5,1,1",
+                    "Color": "#000000",
+                    "Media": "questionschoix",
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 21000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "narrationquestion",
+                    "DependsOn": [],
+                    "DiesAfter": [],
+                    "Type": "Audio",
+                    "Size": "1,1,0",
+                    "Position": "-1.67,1.68,1.1",
+                    "Rotation": "0,0,0",
+                    "Scale": "0,0,0",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": "02_2",
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 21000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "marker1",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Marker",
+                    "Size": "1,1,0",
+                    "Position": "-1.14,1.34,0.83",
+                    "Rotation": "0,0,0",
+                    "Scale": "0.7,0.7,0.7",
+                    "Color": "#ff0020",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 22000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "marker2",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Marker",
+                    "Size": "1,1,0",
+                    "Position": "-1.36,1.31,0.38",
+                    "Rotation": "0,0,0",
+                    "Scale": "0.7,0.7,0.7",
+                    "Color": "#ff0020",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 22000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "maker3",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "suite_achat"
+                    ],
+                    "Type": "Marker",
+                    "Size": "1,1,0",
+                    "Position": "-1.41,1.34,-0.08",
+                    "Rotation": "0,0,0",
+                    "Scale": "0.7,0.7,0.7",
+                    "Color": "#00e5c3",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 22000,
+                    "DiesAt": 0,
+                    "ToWorld": "12_Bonne",
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": true
+                },
+                {
+                    "Id": "conseils",
+                    "DependsOn": [],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Info",
+                    "Size": "1.3,0.5,0",
+                    "Position": "-0.96,2.06,-1.04",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 22000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "Astuces",
+                    "InfoContent": "<table class='TEMPLATENONE nospace bgwhite' style='width:1024px; height:512px;'><tr><td class='subtitle blue' style='height:160px; font-size:90px;padding:0 20px' TITLE>3 conseils pour bien choisir</td></tr><tr><td class='black text top' style='font-size:45px;height:350px;padding:0 20px' CONTENT>A/ La couleur doit être proche de la couleur du sourcil ou des cheveux <br/><br/>B/ La taille doit être proportionnelle au visage<br/><br/>C/ La monture doit suivre la courbe des sourcils sans la couper</td></tr></table>",
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "3 conseils pour bien choisir",
+                        "Text": "A/ La couleur doit être proche de la couleur du sourcil ou des cheveux /nB/ La taille doit être proportionnelle au visage/nC/ La monture doit suivre la courbe des sourcils sans la couper",
+                        "Media": null,
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "resultmarker1",
+                    "DependsOn": [
+                        "marker1"
+                    ],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Text",
+                    "Size": "1,1,0",
+                    "Position": "-1.52,0.94,1.15",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ff0020",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "Trop petite",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "resultmarker2",
+                    "DependsOn": [
+                        "marker2"
+                    ],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Text",
+                    "Size": "1,1,0",
+                    "Position": "-1.84,0.91,0.51",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ff0020",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "Couleur",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "result2bis",
+                    "DependsOn": [
+                        "marker2"
+                    ],
+                    "DiesAfter": [
+                        "maker3"
+                    ],
+                    "Type": "Text",
+                    "Size": "1,1,0",
+                    "Position": "-1.84,0.77,0.52",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ff0020",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": "Courbe du sourcil",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_ChoixLunettes2",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "12_Bonne",
+            "Topics": [
+                {
+                    "Id": "quizzachat",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "-0.89,1.63,1.09",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 15000,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": null,
+                    "Caption": null,
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Conclure la vente",
+                        "Text": "Que proposez-vous au client désormais?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT bgwhite nospace' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='' src='~'/></td><td class='blue subtitle bgwhite header left middle' style='font-size:80px' TITLE>Conclure la vente</td></tr><tr><td class=' black text left top' style='font-size:53px' CONTENT>Que proposez-vous au client désormais?</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>OK. Je vous attends à la caisse!</td></tr></table>",
+                            "Title": "OK. Je vous attends à la caisse!",
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>OK, voulez-vous<br>les ajuster<br>à l'atelier?</td></tr></table>",
+                            "Title": "OK, voulez-vous les ajuster à l'atelier?",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": "Aurelia"
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": true
+                }
+            ],
+            "Media": "a_BonnesLunettes2ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,0,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "Aurelia",
+            "Topics": [
+                {
+                    "Id": "peauvendeur",
+                    "DependsOn": null,
+                    "DiesAfter": null,
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "1.19,1.58,0.76",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#fffcfc",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 5000,
+                    "DiesAt": 0,
+                    "ToWorld": "13_Salut",
+                    "ToUrl": "",
+                    "Caption": "Terminer l'expérience",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_Aurelia3ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,200,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        },
+        {
+            "Id": "13_Salut",
+            "Topics": [
+                {
+                    "Id": "evaluation",
+                    "DependsOn": null,
+                    "DiesAfter": [
+                        "evaluation"
+                    ],
+                    "Type": "QCM",
+                    "Size": "1,1,0",
+                    "Position": "1.4,1.95,0.18",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#000000",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": false,
+                    "IsOpened": true,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": false,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 6000,
+                    "DiesAt": 0,
+                    "ToWorld": "Aurelia",
+                    "ToUrl": null,
+                    "Caption": "",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": {
+                        "Title": "Merci!",
+                        "Text": "Qu'avez vous pensé de l'expérience?",
+                        "Media": "",
+                        "Format": "TextOnly"
+                    },
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": "<table class='TEMPLATELEFT nospace bgwhite' style='width:1200px; height:400px;'><tr><td rowspan='2' class='middle left' style='width:1px;'><img style='padding:10px 10px;' PICTURE='' src='~'/></td><td class='blue subtitle header left middle' style='font-size:80px;padding:0 20px' TITLE>Qu'avez vous pensé de l'expérience?</td></tr><tr><td class=' black text left top' style='font-size:53px;padding:0 20px' CONTENT>Merci!</td></tr></table>",
+                    "Answers": [
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Mauvaise</td></tr></table>",
+                            "Title": "Mauvaise",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Moyenne</td></tr></table>",
+                            "Title": "Moyenne",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Bonne</td></tr></table>",
+                            "Title": "Bonne",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": "<table class='bgwhite nospace' style='width:1200px; height:400px;'><tr><td class='middle black text center middle' style='font-size:120px' CONTENT>Excellente</td></tr></table>",
+                            "Title": "Excellente",
+                            "Value": true,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                },
+                {
+                    "Id": "verssite",
+                    "DependsOn": [
+                        "evaluation"
+                    ],
+                    "DiesAfter": [],
+                    "Type": "Door",
+                    "Size": "1,1,0",
+                    "Position": "1.65,1.19,1.11",
+                    "Rotation": "0,0,0",
+                    "Scale": "1,1,1",
+                    "Color": "#ffffff",
+                    "Media": null,
+                    "Sound": null,
+                    "HasBubble": true,
+                    "IsOpened": false,
+                    "IsBordered": true,
+                    "IsRotationAuto": true,
+                    "IsRotating": false,
+                    "IsTransparent": false,
+                    "IsInvisible": false,
+                    "IsAutoClose": true,
+                    "IsControlsHidden": false,
+                    "AppearsAt": 0,
+                    "DiesAt": 0,
+                    "ToWorld": null,
+                    "ToUrl": "http://www.uptale.io",
+                    "Caption": "En savoir plus sur Uptale",
+                    "InfoContent": null,
+                    "InfoStyle": null,
+                    "Content": null,
+                    "Volume": 1,
+                    "SlideSequence": null,
+                    "Question": null,
+                    "Answers": [
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        },
+                        {
+                            "Text": null,
+                            "Title": null,
+                            "Value": false,
+                            "Sound": null,
+                            "ToWorld": null
+                        }
+                    ],
+                    "CanRetry": true,
+                    "IsStarable": false
+                }
+            ],
+            "Media": "a_AuRevoir2ok",
+            "Sound": null,
+            "VideoVolume": 1,
+            "SoundVolume": 1,
+            "SoundPlayCount": 0,
+            "Type": "Video360",
+            "Rotation": "0,180,0",
+            "Radius": 20,
+            "Loop": false,
+            "Color": "#dcdcdc"
+        }
+    ],
+    "WorldTransition": "None"
+}
